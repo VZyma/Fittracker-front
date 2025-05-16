@@ -1,0 +1,85 @@
+.progressBarWrapp {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 15px;
+  padding: 12px;
+  width: 198px;
+  height: 70px;
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.1);
+  background-color: var(--main-white);
+  margin: 0 auto 42px;
+}
+
+.progressBarText {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: #323f47;
+}
+
+.progressBar {
+  width: 100%;
+  height: 6px;
+  background-color: var(--background);
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.progressline {
+  height: 100%;
+  background-color: var(--accent);
+  border-radius: 9px;
+  position: relative;
+  transition: width var(--transition);
+}
+
+.progressIndicator {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  transition: transform var(--transition);
+}
+
+.progressBarList {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1;
+  color: rgba(47, 47, 47, 0.6);
+}
+
+/* ______Tablet adaptation _______ */
+@media screen and (min-width: 768px) {
+  .progressBarWrapp {
+    gap: 6px;
+    padding: 20px;
+    width: 295px;
+    height: 106px;
+    margin-bottom: 26px;
+  }
+
+  .progressBarText {
+    font-size: 15px;
+    line-height: 1.49;
+  }
+
+  .progressBar {
+    height: 8px;
+  }
+
+  .progressBarList {
+    font-size: 12px;
+    line-height: 1.87;
+  }
+}
+
+/* ______Desktop adaptation___ */
+@media screen and (min-width: 1440px) {
+  .progressBarWrapp {
+    margin-bottom: 56px;
+  }
+}

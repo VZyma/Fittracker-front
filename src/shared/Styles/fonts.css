@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Poppins';
+  font-weight: normal;
+  font-style: normal;
+  src:
+    url('../../../public/Fonts/Poppins-Regular.ttf') format('truetype'),
+    url('../../../public/Fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../../../public/Fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: normal;
+  font-style: normal;
+  src:
+    url('../../../public/Fonts/Gilroy-Regular.ttf') format('truetype'),
+    url('../../../public/Fonts/Gilroy-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../../../public/Fonts/Gilroy-Bold.ttf') format('truetype');
+}

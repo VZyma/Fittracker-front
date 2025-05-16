@@ -1,0 +1,34 @@
+.dailyStats {
+  height: 176.6px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+
+font-weight: 700;
+  font-size: 20px;
+line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #323f47;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+.date {
+    font-size: 28px;
+    line-height: 1.14286;
+ 
+  }}
+
+/* .waterListContainer {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: var(--light-background);
+  border-radius: 10px;
+} */
